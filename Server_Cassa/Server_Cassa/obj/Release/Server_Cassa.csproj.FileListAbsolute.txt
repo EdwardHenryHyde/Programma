@@ -1,0 +1,6 @@
+C:\Users\Antonio\source\repos\Server_Cassa\Server_Cassa\bin\Release\Server_Cassa.exe.config
+C:\Users\Antonio\source\repos\Server_Cassa\Server_Cassa\bin\Release\Server_Cassa.exe
+C:\Users\Antonio\source\repos\Server_Cassa\Server_Cassa\bin\Release\Server_Cassa.pdb
+C:\Users\Antonio\source\repos\Server_Cassa\Server_Cassa\obj\Release\Server_Cassa.csproj.CoreCompileInputs.cache
+C:\Users\Antonio\source\repos\Server_Cassa\Server_Cassa\obj\Release\Server_Cassa.exe
+C:\Users\Antonio\source\repos\Server_Cassa\Server_Cassa\obj\Release\Server_Cassa.pdb
