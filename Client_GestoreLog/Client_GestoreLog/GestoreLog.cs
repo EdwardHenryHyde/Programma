@@ -68,8 +68,8 @@ namespace Client_GestoreLog
                 string[] words = responseData.Split(':');
 
                 tableLayoutPanel.Controls.Add(new Label() { Text = words[0] });
-                tableLayoutPanel.Controls.Add(new Label() { Text = words[0] });
-                tableLayoutPanel.Controls.Add(new Label() { Text = words[0] });
+                tableLayoutPanel.Controls.Add(new Label() { Text = words[1] });
+                tableLayoutPanel.Controls.Add(new Label() { Text = words[2] });
 
 
             }
