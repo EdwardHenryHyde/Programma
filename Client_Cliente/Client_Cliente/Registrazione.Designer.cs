@@ -38,6 +38,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.registra = new System.Windows.Forms.Button();
+            this.nomeTextBox = new System.Windows.Forms.TextBox();
+            this.cognomeTextBox = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // nomeLabel
@@ -144,12 +147,36 @@
             this.registra.UseVisualStyleBackColor = false;
             this.registra.Click += new System.EventHandler(this.registra_Click);
             // 
+            // nomeTextBox
+            // 
+            this.nomeTextBox.Location = new System.Drawing.Point(138, 28);
+            this.nomeTextBox.Name = "nomeTextBox";
+            this.nomeTextBox.Size = new System.Drawing.Size(168, 20);
+            this.nomeTextBox.TabIndex = 10;
+            // 
+            // cognomeTextBox
+            // 
+            this.cognomeTextBox.Location = new System.Drawing.Point(138, 70);
+            this.cognomeTextBox.Name = "cognomeTextBox";
+            this.cognomeTextBox.Size = new System.Drawing.Size(168, 20);
+            this.cognomeTextBox.TabIndex = 11;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(138, 112);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(168, 20);
+            this.dateTimePicker1.TabIndex = 12;
+            // 
             // Registrazione
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(318, 494);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.cognomeTextBox);
+            this.Controls.Add(this.nomeTextBox);
             this.Controls.Add(this.registra);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label2);
@@ -179,5 +206,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button registra;
+        private System.Windows.Forms.TextBox nomeTextBox;
+        private System.Windows.Forms.TextBox cognomeTextBox;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
