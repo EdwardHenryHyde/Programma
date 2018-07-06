@@ -1,7 +1,7 @@
-C:\Users\Antonio\Documents\GitHub\Programma\Server_Login\Server_Login\bin\Debug\Server_Login.exe.config
-C:\Users\Antonio\Documents\GitHub\Programma\Server_Login\Server_Login\bin\Debug\Server_Login.exe
-C:\Users\Antonio\Documents\GitHub\Programma\Server_Login\Server_Login\bin\Debug\Server_Login.pdb
-C:\Users\Antonio\Documents\GitHub\Programma\Server_Login\Server_Login\obj\Debug\Server_Login.csprojResolveAssemblyReference.cache
-C:\Users\Antonio\Documents\GitHub\Programma\Server_Login\Server_Login\obj\Debug\Server_Login.csproj.CoreCompileInputs.cache
-C:\Users\Antonio\Documents\GitHub\Programma\Server_Login\Server_Login\obj\Debug\Server_Login.exe
-C:\Users\Antonio\Documents\GitHub\Programma\Server_Login\Server_Login\obj\Debug\Server_Login.pdb
+C:\Users\Antonio\source\repos\Server_Login\Server_Login\bin\Debug\Server_Login.exe.config
+C:\Users\Antonio\source\repos\Server_Login\Server_Login\bin\Debug\Server_Login.exe
+C:\Users\Antonio\source\repos\Server_Login\Server_Login\bin\Debug\Server_Login.pdb
+C:\Users\Antonio\source\repos\Server_Login\Server_Login\obj\Debug\Server_Login.csprojResolveAssemblyReference.cache
+C:\Users\Antonio\source\repos\Server_Login\Server_Login\obj\Debug\Server_Login.csproj.CoreCompileInputs.cache
+C:\Users\Antonio\source\repos\Server_Login\Server_Login\obj\Debug\Server_Login.exe
+C:\Users\Antonio\source\repos\Server_Login\Server_Login\obj\Debug\Server_Login.pdb

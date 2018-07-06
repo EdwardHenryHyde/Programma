@@ -34,7 +34,7 @@ namespace Server_Login
 
             using (StreamWriter w = File.AppendText(@"Log.txt"))
             {
-                w.WriteLine(DateTime.Now.ToString() + "@Creato utente '"+nome + "' '" + cognome + "'@" + "Server_EmissioneScontrino");
+                w.WriteLine(DateTime.Now.Hour + ":" + DateTime.Now.Minute + ":" + DateTime.Now.Second + "@Creato utente '"+nome + "' '" + cognome + "'@" + "Server_EmissioneScontrino");
             }
 
             return username+":"+password;
