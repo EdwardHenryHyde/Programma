@@ -1,0 +1,10 @@
+C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.csprojResolveAssemblyReference.cache
+C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.Properties.Resources.resources
+C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.csproj.GenerateResource.cache
+C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.Form1.resources
+C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\bin\Debug\Client_Cliente.exe.config
+C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\bin\Debug\Client_Cliente.exe
+C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\bin\Debug\Client_Cliente.pdb
+C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.exe
+C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.pdb
