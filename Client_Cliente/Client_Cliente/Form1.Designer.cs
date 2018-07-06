@@ -92,7 +92,7 @@
             // 
             // registrati
             // 
-            this.registrati.Enabled = false;
+            this.registrati.Enabled = true;
             this.registrati.Location = new System.Drawing.Point(169, 213);
             this.registrati.Name = "registrati";
             this.registrati.Size = new System.Drawing.Size(94, 37);
