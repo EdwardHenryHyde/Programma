@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Server_Login
@@ -24,10 +25,11 @@ namespace Server_Login
             {
                 if (gestoreLogin.verificaCredenziali(username, password))
                 {
+                    Thread.Sleep(10);
                     return "ok";
                 }
             }
-
+            Thread.Sleep(10);
             return "errore";
         }
     }

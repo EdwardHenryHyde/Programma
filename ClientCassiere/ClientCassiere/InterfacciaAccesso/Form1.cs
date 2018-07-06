@@ -27,7 +27,7 @@ namespace ClientCassiere
 
         private void Login_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
 
             Int32 port = 1235;
             TcpClient client = new TcpClient("127.0.0.1", port);
@@ -37,7 +37,7 @@ namespace ClientCassiere
             NetworkStream stream = client.GetStream();
             stream.Write(oggetto, 0, oggetto.Length);
 
-
+            Thread.Sleep(10);
             Byte[] credenziali = new Byte[256];
             credenziali = System.Text.Encoding.ASCII.GetBytes(usernameTextBox.Text + ":" + passwordTextBox.Text);
             stream.Write(credenziali, 0, credenziali.Length);
@@ -52,6 +52,7 @@ namespace ClientCassiere
 
             if (responseData == "ok")
             {
+                Thread.Sleep(10);
                 InterfacciaCassiere interfacciaCassiere = new InterfacciaCassiere();
                 interfacciaCassiere.Show();
 
@@ -60,6 +61,8 @@ namespace ClientCassiere
             {
                 MessageBox.Show("Credenziali Errate");
             }
+
+            this.Hide();
 
         }
     }

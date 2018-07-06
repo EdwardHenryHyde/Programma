@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Server_Login.GestioneLogin
@@ -23,7 +24,7 @@ namespace Server_Login.GestioneLogin
                 if (words[0].Equals(username) && words[1].Equals(password))
                     return true;
             }
-
+            Thread.Sleep(10);
             return false;
         }
     }
