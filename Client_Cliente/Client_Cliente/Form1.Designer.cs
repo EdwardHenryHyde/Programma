@@ -99,6 +99,8 @@
             this.registrati.TabIndex = 6;
             this.registrati.Text = "Registrati";
             this.registrati.UseVisualStyleBackColor = true;
+            this.registrati.Click += new System.EventHandler(this.Registrati_Click);
+
             // 
             // Form1
             // 

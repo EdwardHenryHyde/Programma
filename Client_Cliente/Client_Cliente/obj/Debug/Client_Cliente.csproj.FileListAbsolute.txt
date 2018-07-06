@@ -8,3 +8,4 @@ C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma
 C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\bin\Debug\Client_Cliente.pdb
 C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.exe
 C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.pdb
+C:\Users\Andrea\Documents\Università\Ingegneria Del Software\progetto\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.Registrazione.resources

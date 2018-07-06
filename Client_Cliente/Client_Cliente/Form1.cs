@@ -62,17 +62,11 @@ namespace Client_Cliente
             }
 
         }
-
-        private void InitializeComponent()
+        private void Registrati_Click(object sender, EventArgs e)
         {
-            this.SuspendLayout();
-            // 
-            // Form1
-            // 
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Name = "Form1";
-            this.ResumeLayout(false);
-
+            this.Hide();
+            Registrazione registrazione = new Registrazione();
+            registrazione.Show();
         }
     }
 }
