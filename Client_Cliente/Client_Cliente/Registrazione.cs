@@ -47,7 +47,7 @@ namespace Client_Cliente
             data = System.Text.Encoding.ASCII.GetBytes(linea);
             Thread.Sleep(10);
 
-            NetworkStream stream = client.GetStream();
+            stream = client.GetStream();
             stream.Write(data, 0, data.Length);
 
             Thread.Sleep(10);
