@@ -16,5 +16,10 @@ namespace Client_Cliente
         {
             InitializeComponent();
         }
+
+        private void registra_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
