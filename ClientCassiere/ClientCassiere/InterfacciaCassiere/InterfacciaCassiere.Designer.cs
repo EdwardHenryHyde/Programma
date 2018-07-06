@@ -128,9 +128,9 @@
             // 
             // aggiungiProdotto
             // 
-            this.aggiungiProdotto.Location = new System.Drawing.Point(272, 207);
+            this.aggiungiProdotto.Location = new System.Drawing.Point(259, 169);
             this.aggiungiProdotto.Name = "aggiungiProdotto";
-            this.aggiungiProdotto.Size = new System.Drawing.Size(43, 64);
+            this.aggiungiProdotto.Size = new System.Drawing.Size(68, 153);
             this.aggiungiProdotto.TabIndex = 8;
             this.aggiungiProdotto.Text = "Aggiungi";
             this.aggiungiProdotto.UseVisualStyleBackColor = true;
