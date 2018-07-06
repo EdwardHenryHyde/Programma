@@ -23,7 +23,9 @@ namespace Client_Cliente
 
         private void registra_Click(object sender, EventArgs e)
         {
-            
+            Int32 port = 1236;
+            TcpClient client = new TcpClient("127.0.0.1", port);
+            Thread.Sleep(10);
 
 
 
@@ -32,11 +34,16 @@ namespace Client_Cliente
 
             Thread.Sleep(10);
 
-            Int32 port = 1236;
-            TcpClient client = new TcpClient("127.0.0.1", port);
+            Byte[] data = new Byte[256];
+            data = System.Text.Encoding.ASCII.GetBytes("2");
             Thread.Sleep(10);
 
-            Byte[] data = new Byte[256];
+            NetworkStream stream = client.GetStream();
+            stream.Write(data, 0, data.Length);
+            Thread.Sleep(10);
+
+
+            data = new Byte[256];
             data = System.Text.Encoding.ASCII.GetBytes(linea);
             Thread.Sleep(10);
 
