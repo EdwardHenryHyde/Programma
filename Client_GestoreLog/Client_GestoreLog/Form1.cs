@@ -27,7 +27,6 @@ namespace Client_GestoreLog
 
         private void Login_Click(object sender, EventArgs e)
         {
-            this.Hide();
 
             Int32 port = 1235;
             TcpClient client = new TcpClient("127.0.0.1", port);
@@ -52,8 +51,9 @@ namespace Client_GestoreLog
 
             if (responseData == "ok")
             {
-               // InterfacciaCassiere interfacciaCassiere = new InterfacciaCassiere();
-               // interfacciaCassiere.Show();
+                this.Hide();
+                GestoreLog gestoreLog = new GestoreLog();
+                gestoreLog.Show();
 
             }
             else
