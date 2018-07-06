@@ -15,6 +15,13 @@ namespace Client_Cliente
         public Registrazione()
         {
             InitializeComponent();
+            passwordTextBox.PasswordChar = '*';
+
+        }
+
+        private void registra_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
