@@ -24,15 +24,20 @@ namespace Client_Cliente
         private void registra_Click(object sender, EventArgs e)
         {
             
-            MessageBox.Show("Stampa scontrino");
+
+
+
+            string linea = nomeTextBox.Text + ":" + cognomeTextBox.Text + ":" + dateTimePicker.Text + ":" + cittaTextBox.Text + ":" + provinciaTextBox.Text + ":" + capTextBox.Text + ":" + viaTextBox.Text + ":" + telefonoTextBox.Text + ":" + cartaTextBox.Text + ":" + passwordTextBox.Text;
+            MessageBox.Show(linea);
+
             Thread.Sleep(10);
 
-            Int32 port = 1234;
+            Int32 port = 1236;
             TcpClient client = new TcpClient("127.0.0.1", port);
             Thread.Sleep(10);
 
             Byte[] data = new Byte[256];
-            data = System.Text.Encoding.ASCII.GetBytes("3");
+            data = System.Text.Encoding.ASCII.GetBytes(linea);
             Thread.Sleep(10);
 
             NetworkStream stream = client.GetStream();
@@ -40,15 +45,18 @@ namespace Client_Cliente
 
             Thread.Sleep(10);
 
-            Byte[] oggetto = new Byte[256];
-           // oggetto = System.Text.Encoding.ASCII.GetBytes();
-            stream.Write(oggetto, 0, oggetto.Length);
+           
 
 
 
         }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Close();
+            form1.Show();
+        }
     }
  }
 

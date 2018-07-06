@@ -48,6 +48,7 @@
             this.cartaTextBox = new System.Windows.Forms.TextBox();
             this.passwordTextBox = new System.Windows.Forms.TextBox();
             this.registra = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -224,9 +225,26 @@
             this.registra.UseVisualStyleBackColor = false;
             this.registra.Click += new System.EventHandler(this.registra_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackgroundImage = global::Client_Cliente.Properties.Resources.error__1_;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(256, 1);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(26, 28);
+            this.button1.TabIndex = 20;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Registrazione
             // 
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(284, 489);
+            this.ControlBox = false;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.registra);
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.cartaTextBox);
@@ -275,5 +293,6 @@
         private System.Windows.Forms.TextBox cartaTextBox;
         private System.Windows.Forms.TextBox passwordTextBox;
         private System.Windows.Forms.Button registra;
+        private System.Windows.Forms.Button button1;
     }
 }
