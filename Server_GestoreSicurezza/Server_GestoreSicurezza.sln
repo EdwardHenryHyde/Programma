@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server_GestoreSicurezza", "Server_GestoreSicurezza\Server_GestoreSicurezza.csproj", "{9AC561A8-C9FA-495A-A8BD-91D06E19D54D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AC561A8-C9FA-495A-A8BD-91D06E19D54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC561A8-C9FA-495A-A8BD-91D06E19D54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC561A8-C9FA-495A-A8BD-91D06E19D54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC561A8-C9FA-495A-A8BD-91D06E19D54D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9098F183-3D06-419A-AAB3-C2670814E1E6}
+	EndGlobalSection
+EndGlobal
