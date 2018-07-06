@@ -52,8 +52,18 @@ namespace Client_Cliente
 
             Thread.Sleep(10);
 
-           
+            Byte[] oggetto = new Byte[256];
+            oggetto = new Byte[256];
+            String responseData = String.Empty;
+            Thread.Sleep(10);
+            Int32 bytes = stream.Read(oggetto, 0, oggetto.Length);
+            responseData = System.Text.Encoding.ASCII.GetString(oggetto, 0, bytes);
+            string[] words = responseData.Split(':');
 
+            string username = words[0];
+            string password = words[1];
+
+            MessageBox.Show("Username: " + username + "   Password: " + password);
 
 
         }
