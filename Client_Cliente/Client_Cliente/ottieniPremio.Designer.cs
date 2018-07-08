@@ -111,6 +111,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Set Bicchieri";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -122,6 +123,7 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Materasso";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // label1
             // 
@@ -180,6 +182,8 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.ForeColor = System.Drawing.Color.Red;
             this.label7.Location = new System.Drawing.Point(438, 105);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 13);
