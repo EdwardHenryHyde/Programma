@@ -26,5 +26,10 @@ namespace Server_Login.GestioneLogin
 
             return false;
         }
+
+        public void aggiornaLogin()
+        {
+            loginFile = System.IO.File.ReadAllLines(@"Login.txt");
+        }
     }
 }

@@ -34,7 +34,7 @@ namespace Server_Login
 
         public void aggiornaLogin()
         {
-            loginFile = System.IO.File.ReadAllLines(@"Login.txt");
+            gestoreLogin.aggiornaLogin();
         }
     }
 }
