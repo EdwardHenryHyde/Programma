@@ -14,7 +14,8 @@ namespace Server_Login
         GestoreLogin gestoreLogin = new GestoreLogin();
 
         public LoginController()
-        {
+
+       {
             loginFile = System.IO.File.ReadAllLines(@"Login.txt");
         }
 
@@ -29,6 +30,11 @@ namespace Server_Login
             }
 
             return "errore";
+        }
+
+        public void aggiornaLogin()
+        {
+            loginFile = System.IO.File.ReadAllLines(@"Login.txt");
         }
     }
 }
