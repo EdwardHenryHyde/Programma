@@ -19,7 +19,7 @@ namespace Server_GestoreSicurezza
             TcpListener tcpListener = null;
             IPAddress ipAddress = Dns.GetHostEntry("127.0.0.1").AddressList[0];
 
-            tcpListener = new TcpListener(1234);
+            tcpListener = new TcpListener(1237);
             tcpListener.Start();
 
 
