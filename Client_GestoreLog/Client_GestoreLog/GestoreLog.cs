@@ -28,7 +28,7 @@ namespace Client_GestoreLog
 
         private void dateTimePicker_ValueChanged(object sender, EventArgs e)
         {
-                        MessageBox.Show(dateTimePicker.Text);
+            //MessageBox.Show(dateTimePicker.Text);
 
             tableLayoutPanel.Controls.Clear();
             tableLayoutPanel.RowCount = 0;
