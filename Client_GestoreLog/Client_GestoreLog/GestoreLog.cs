@@ -70,7 +70,7 @@ namespace Client_GestoreLog
                 len = responseData.IndexOf('\0');
                 responseData = responseData.Substring(0, len);
 
-                string[] words = responseData.Split(':');
+                string[] words = responseData.Split('@');
 
                 tableLayoutPanel.Controls.Add(new Label() { Text = words[0] });
                 tableLayoutPanel.Controls.Add(new Label() { Text = words[1] });
