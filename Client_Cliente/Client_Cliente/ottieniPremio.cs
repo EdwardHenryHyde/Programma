@@ -28,8 +28,6 @@ namespace Client_Cliente
         {
 
         }
-<<<<<<< HEAD
-=======
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
@@ -59,6 +57,6 @@ namespace Client_Cliente
             MessageBox.Show("Saldo Punti insufficente");
            
         }
->>>>>>> 072e8b84f7c252160598a84e5c1c145ea137e1a4
+
     }
 }
