@@ -89,6 +89,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Pentole";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -100,6 +101,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Servizio Piatti";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton3
             // 

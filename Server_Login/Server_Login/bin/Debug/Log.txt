@@ -12,3 +12,4 @@
 19:40:48@Creato utente 'aaaaaaa' 'aaaaaa'@Server_EmissioneScontrino
 19:40:51@Creato utente 'aaaaaaa' 'aaaaaa'@Server_EmissioneScontrino
 19:40:54@Creato utente 'aaaaaaa' 'aaaaaa'@Server_EmissioneScontrino
+19:56:20@Creato utente 'aaaaa' 'aaaaa'@Server_EmissioneScontrino
