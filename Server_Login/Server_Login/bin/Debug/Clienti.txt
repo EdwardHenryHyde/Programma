@@ -1,3 +1,7 @@
 antonio:spina:16/10/1996:Bologna:Bo:40123:via Frassinago:1234566778:12312321:1233456:99999
 giuseppe:qweqeqw:12/12/2012:Roma:Ro:21212:via Roma:1235435345:123123124:94879847:44444
 asdadsa:asdasd:venerd? 6 luglio 2018:Bogloasd:Bo:40123:roma:123429324:eieoriug
+aaaaa:aaaaa:domenica 8 luglio 2018:aa:aa:aaaaaaaa:aaaaaaaaaa:aaaaaaaa:aaaaaaaaaa
+aaaa:aaaaaa:domenica 8 luglio 2018:aaa:aa:aaaaaaaaaa:aaaaaaaaaa:aaaaaaaaa:aaaaaaaaaaaa
+::domenica 8 luglio 2018::::::
+aa:aa:mercoled? 27 giugno 2018:aaa:aa:aaaaaaaa:aaaaaa:aaaaaaaa:aaaaaaaa

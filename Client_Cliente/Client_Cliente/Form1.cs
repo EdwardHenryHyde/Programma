@@ -28,20 +28,23 @@ namespace Client_Cliente
         private void Login_Click(object sender, EventArgs e)
         {
             this.Hide();
-
             Int32 port = 1235;
             TcpClient client = new TcpClient("127.0.0.1", port);
             Byte[] oggetto = new Byte[256];
             oggetto = System.Text.Encoding.ASCII.GetBytes("1");
 
+            Thread.Sleep(10);
+
             NetworkStream stream = client.GetStream();
             stream.Write(oggetto, 0, oggetto.Length);
 
+            Thread.Sleep(10);
 
             Byte[] credenziali = new Byte[256];
             credenziali = System.Text.Encoding.ASCII.GetBytes(usernameTextBox.Text + ":" + passwordTextBox.Text);
             stream.Write(credenziali, 0, credenziali.Length);
 
+            Thread.Sleep(10);
 
             oggetto = new Byte[256];
             String responseData = String.Empty;
@@ -49,6 +52,7 @@ namespace Client_Cliente
             Int32 bytes = stream.Read(oggetto, 0, oggetto.Length);
             responseData = System.Text.Encoding.ASCII.GetString(oggetto, 0, bytes);
 
+            Thread.Sleep(10);
 
             if (responseData == "ok")
             {
@@ -59,6 +63,7 @@ namespace Client_Cliente
             else
             {
                 MessageBox.Show("Credenziali Errate");
+                this.Show();
             }
 
         }

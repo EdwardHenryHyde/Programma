@@ -3,3 +3,7 @@
 06/07/2018 11:03:38 : Aggiunto scontrino : Server_EmissioneScontrino
 06/07/2018 11:18:15_Aggiunto scontrino_Server_EmissioneScontrino
 16:58:50@Creato utente 'asdadsa' 'asdasd'@Server_EmissioneScontrino
+19:14:57@Creato utente 'aaaaa' 'aaaaa'@Server_EmissioneScontrino
+19:16:55@Creato utente 'aaaa' 'aaaaaa'@Server_EmissioneScontrino
+19:23:14@Creato utente '' ''@Server_EmissioneScontrino
+19:23:54@Creato utente 'aa' 'aa'@Server_EmissioneScontrino

@@ -23,7 +23,7 @@ namespace Client_Cliente
 
         private void registra_Click(object sender, EventArgs e)
         {
-            Int32 port = 1236;
+            Int32 port = 1235;
             TcpClient client = new TcpClient("127.0.0.1", port);
             Thread.Sleep(10);
 
