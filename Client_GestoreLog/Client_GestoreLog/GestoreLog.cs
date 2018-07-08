@@ -67,7 +67,8 @@ namespace Client_GestoreLog
                 Thread.Sleep(10);
                 bytes = stream.Read(data, 0, data.Length);
                 responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
-                
+                len = responseData.IndexOf('\0');
+                responseData = responseData.Substring(0, len);
 
                 string[] words = responseData.Split(':');
 
