@@ -37,6 +37,7 @@ namespace Server_Login
                 w.WriteLine(DateTime.Now.Hour + ":" + DateTime.Now.Minute + ":" + DateTime.Now.Second + "@Creato utente '"+nome + "' '" + cognome + "'@" + "Server_EmissioneScontrino");
             }
 
+
             return username+":"+password;
         }
 
