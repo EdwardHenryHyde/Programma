@@ -33,6 +33,8 @@ namespace Client_GestoreLog
             Byte[] oggetto = new Byte[256];
             oggetto = System.Text.Encoding.ASCII.GetBytes("1");
 
+            Thread.Sleep(10);
+
             NetworkStream stream = client.GetStream();
             stream.Write(oggetto, 0, oggetto.Length);
 

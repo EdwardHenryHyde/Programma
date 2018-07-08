@@ -28,6 +28,7 @@ namespace Client_GestoreLog
 
         private void dateTimePicker_ValueChanged(object sender, EventArgs e)
         {
+                        MessageBox.Show(dateTimePicker.Text);
 
             tableLayoutPanel.Controls.Clear();
             tableLayoutPanel.RowCount = 0;
@@ -35,7 +36,6 @@ namespace Client_GestoreLog
             Int32 port = 1237;
             TcpClient client = new TcpClient("127.0.0.1", port);
             Thread.Sleep(10);
-
             //mando la data
 
             Byte[] data = new Byte[256];
@@ -52,6 +52,9 @@ namespace Client_GestoreLog
             Thread.Sleep(10);
             Int32 bytes = stream.Read(data, 0, data.Length);
             responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+            int len = responseData.IndexOf('\0');
+            responseData = responseData.Substring(0, len);
+
 
             int righe = int.Parse(responseData);
 
@@ -64,6 +67,7 @@ namespace Client_GestoreLog
                 Thread.Sleep(10);
                 bytes = stream.Read(data, 0, data.Length);
                 responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+                
 
                 string[] words = responseData.Split(':');
 
