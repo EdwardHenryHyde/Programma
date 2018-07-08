@@ -12,9 +12,18 @@ namespace Client_Cliente
 {
     public partial class ottieniPremio : Form
     {
+        int saldo = 2300;
+        int pentole = 900;
+        int piatti = 600;
+        int bicchieri = 500;
+        int materasso = 2500;
+
         public ottieniPremio()
         {
             InitializeComponent();
+            label6.Text = saldo.ToString();
+            label7.ResetText();
+            label9.Text = label6.Text;
         }
 
         private void closeButton_Click(object sender, EventArgs e)
@@ -31,32 +40,110 @@ namespace Client_Cliente
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            //2300
-            label7.Text = "-900";
-            label9.Text = "1400";
+            if (radioButton1.Checked)
+            {
+                if (saldo >= pentole)
+                {
+                    label7.Text = "-" + pentole.ToString();
+                    label9.Text = (saldo - pentole).ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Saldo Punti insufficente");
+                    label9.Text = saldo.ToString();
+
+                }
+            }
+
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            //2300
-            label7.Text = "-600";
-            label9.Text = "1700";
+            if (radioButton2.Checked)
+            {
+                if (saldo >= piatti)
+                {
+                    label7.Text = "-" + piatti.ToString();
+                    label9.Text = (saldo - piatti).ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Saldo Punti insufficente");
+                    label9.Text = saldo.ToString();
+                }
+            }
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            //2300
-            label7.Text = "-500";
-            label9.Text = "1800";
+            if (radioButton3.Checked)
+            {
+                if (saldo >= bicchieri)
+                {
+                    label7.Text = "-" + bicchieri.ToString();
+                    label9.Text = (saldo - bicchieri).ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Saldo Punti insufficente");
+                    label9.Text = saldo.ToString();
+
+                }
+            }
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-            label7.ResetText();
-            label9.Text = "2300";
-            MessageBox.Show("Saldo Punti insufficente");
-           
+            if (radioButton4.Checked)
+            {
+                if (saldo >= materasso)
+                {
+                    label7.Text = "-" + materasso.ToString();
+                    label9.Text = (saldo - materasso).ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Saldo Punti insufficente");
+                    label9.Text = saldo.ToString();
+
+                }
+            }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                saldo = saldo - pentole;
+                MessageBox.Show("premio acquistato!");
+                label6.Text = saldo.ToString();
+                label7.ResetText();
+                label9.Text = label6.Text;
+            }
+            if (radioButton2.Checked)
+            {
+                saldo = saldo - piatti;
+                MessageBox.Show("premio acquistato!");
+                label6.Text = saldo.ToString();
+                label7.ResetText();
+                label9.Text = label6.Text;
+            }
+            if (radioButton3.Checked)
+            {
+                saldo = saldo - bicchieri;
+                MessageBox.Show("premio acquistato!");
+                label6.Text = saldo.ToString();
+                label7.ResetText();
+                label9.Text = label6.Text;
+            }
+            if (radioButton4.Checked)
+            {
+                saldo = saldo - materasso;
+                MessageBox.Show("premio acquistato!");
+                label6.Text = saldo.ToString();
+                label7.ResetText();
+                label9.Text = label6.Text;
+            }
+        }
     }
 }
