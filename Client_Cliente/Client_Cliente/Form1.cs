@@ -52,8 +52,8 @@ namespace Client_Cliente
 
             if (responseData == "ok")
             {
-               // InterfacciaCassiere interfacciaCassiere = new InterfacciaCassiere();
-                //interfacciaCassiere.Show();
+                InterfacciaCliente interfacciaCliente = new InterfacciaCliente();
+                interfacciaCliente.Show();
 
             }
             else

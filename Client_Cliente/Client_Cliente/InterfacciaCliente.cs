@@ -16,5 +16,19 @@ namespace Client_Cliente
         {
             InitializeComponent();
         }
+
+        private void ottieniPremioButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ottieniPremio premio = new ottieniPremio();
+            premio.Show();
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Form1 login = new Form1();
+            login.Show();
+            this.Close();
+        }
     }
 }

@@ -49,6 +49,18 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs" />
+    <Compile Include="InterfacciaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfacciaCliente.Designer.cs">
+      <DependentUpon>InterfacciaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ottieniPremio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ottieniPremio.Designer.cs">
+      <DependentUpon>ottieniPremio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registrazione.cs">
@@ -57,6 +69,12 @@
     <Compile Include="Registrazione.Designer.cs">
       <DependentUpon>Registrazione.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="InterfacciaCliente.resx">
+      <DependentUpon>InterfacciaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ottieniPremio.resx">
+      <DependentUpon>ottieniPremio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
