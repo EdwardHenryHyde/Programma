@@ -36,7 +36,8 @@ namespace Server_GestoreSicurezza
                     stream.Read(bytes, 0, bytes.Length);
                     Thread.Sleep(10);
                     string mstrMessage = Encoding.ASCII.GetString(bytes, 0, bytes.Length);
-                    mstrMessage = mstrMessage.Substring(0, 10);
+                    int len = mstrMessage.IndexOf('\0');
+                    mstrMessage = mstrMessage.Substring(0, len);
 
                     string[] res = logController.getEntry(mstrMessage);
                     string mstrResponse;

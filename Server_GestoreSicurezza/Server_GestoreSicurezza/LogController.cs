@@ -24,9 +24,9 @@ namespace Server_GestoreSicurezza
         public string[] getEntry(string data)
         {
 
-            if (files.Contains(data + ".txt"))
+            if (files.Contains("Logs\\"+data+ ".txt"))
             {
-                return System.IO.File.ReadAllLines(@"" + data + ".txt");
+                return System.IO.File.ReadAllLines(@"Logs\\" + data + ".txt");
             }
 
             return null;
