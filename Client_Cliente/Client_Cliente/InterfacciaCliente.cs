@@ -30,5 +30,12 @@ namespace Client_Cliente
             login.Show();
             this.Close();
         }
+
+        private void elencoScontriniButton_Click(object sender, EventArgs e)
+        {
+            ElencoScontrini elencoScontrini = new ElencoScontrini();
+            elencoScontrini.Show();
+            this.Close();
+        }
     }
 }

@@ -30,7 +30,6 @@
         {
             this.ottieniPremioButton = new System.Windows.Forms.Button();
             this.elencoScontriniButton = new System.Windows.Forms.Button();
-            this.closeButton = new System.Windows.Forms.Button();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -45,6 +44,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.closeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ottieniPremioButton
@@ -56,6 +56,7 @@
             this.ottieniPremioButton.TabIndex = 1;
             this.ottieniPremioButton.Text = "Ottieni Premio";
             this.ottieniPremioButton.UseVisualStyleBackColor = true;
+            this.ottieniPremioButton.Click += new System.EventHandler(this.ottieniPremioButton_Click);
             // 
             // elencoScontriniButton
             // 
@@ -66,18 +67,6 @@
             this.elencoScontriniButton.Text = "Elenco Scontrini";
             this.elencoScontriniButton.UseVisualStyleBackColor = true;
             this.elencoScontriniButton.Click += new System.EventHandler(this.elencoScontriniButton_Click);
-            // 
-            // closeButton
-            // 
-            this.closeButton.FlatAppearance.BorderSize = 0;
-            this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.closeButton.Image = global::Client_Cliente.Properties.Resources.error__1_;
-            this.closeButton.Location = new System.Drawing.Point(500, 12);
-            this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(41, 33);
-            this.closeButton.TabIndex = 4;
-            this.closeButton.UseVisualStyleBackColor = true;
-            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // radioButton1
             // 
@@ -222,6 +211,18 @@
             this.button1.Text = "OttieniPremio";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // closeButton
+            // 
+            this.closeButton.FlatAppearance.BorderSize = 0;
+            this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.closeButton.Image = global::Client_Cliente.Properties.Resources.error__1_;
+            this.closeButton.Location = new System.Drawing.Point(500, 12);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(41, 33);
+            this.closeButton.TabIndex = 4;
+            this.closeButton.UseVisualStyleBackColor = true;
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // ottieniPremio
             // 

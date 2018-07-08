@@ -51,6 +51,7 @@
             this.elencoScontriniButton.TabIndex = 1;
             this.elencoScontriniButton.Text = "Elenco Scontrini";
             this.elencoScontriniButton.UseVisualStyleBackColor = true;
+            this.elencoScontriniButton.Click += new System.EventHandler(this.elencoScontriniButton_Click);
             // 
             // closeButton
             // 

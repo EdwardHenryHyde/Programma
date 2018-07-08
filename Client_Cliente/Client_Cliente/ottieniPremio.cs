@@ -35,7 +35,9 @@ namespace Client_Cliente
 
         private void elencoScontriniButton_Click(object sender, EventArgs e)
         {
-
+            ElencoScontrini elencoScontrini = new ElencoScontrini();
+            elencoScontrini.Show();
+            this.Close();
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -114,36 +116,74 @@ namespace Client_Cliente
         {
             if (radioButton1.Checked)
             {
-                saldo = saldo - pentole;
-                MessageBox.Show("premio acquistato!");
-                label6.Text = saldo.ToString();
-                label7.ResetText();
-                label9.Text = label6.Text;
+                if (saldo >= pentole)
+                {
+                    saldo = saldo - pentole;
+                    MessageBox.Show("premio acquistato!");
+                    label6.Text = saldo.ToString();
+                    label7.ResetText();
+                    label9.Text = label6.Text;
+                }
+                else
+                {
+                    MessageBox.Show("Saldo Punti insufficente!");
+                }
             }
             if (radioButton2.Checked)
             {
-                saldo = saldo - piatti;
-                MessageBox.Show("premio acquistato!");
-                label6.Text = saldo.ToString();
-                label7.ResetText();
-                label9.Text = label6.Text;
+
+                if (saldo >= piatti)
+                {
+                    saldo = saldo - piatti;
+                    MessageBox.Show("premio acquistato!");
+                    label6.Text = saldo.ToString();
+                    label7.ResetText();
+                    label9.Text = label6.Text;
+                }
+                else
+                {
+                    MessageBox.Show("Saldo Punti insufficente!");
+                }
+               
             }
             if (radioButton3.Checked)
             {
-                saldo = saldo - bicchieri;
-                MessageBox.Show("premio acquistato!");
-                label6.Text = saldo.ToString();
-                label7.ResetText();
-                label9.Text = label6.Text;
+
+                if (saldo >= bicchieri)
+                {
+                    saldo = saldo - bicchieri;
+                    MessageBox.Show("premio acquistato!");
+                    label6.Text = saldo.ToString();
+                    label7.ResetText();
+                    label9.Text = label6.Text;
+                }
+                else
+                {
+                    MessageBox.Show("Saldo Punti insufficente!");
+                }
+               
             }
             if (radioButton4.Checked)
             {
-                saldo = saldo - materasso;
-                MessageBox.Show("premio acquistato!");
-                label6.Text = saldo.ToString();
-                label7.ResetText();
-                label9.Text = label6.Text;
+                if (saldo >= materasso)
+                {
+                    saldo = saldo - materasso;
+                    MessageBox.Show("premio acquistato!");
+                    label6.Text = saldo.ToString();
+                    label7.ResetText();
+                    label9.Text = label6.Text;
+                }
+                else
+                {
+                    MessageBox.Show("Saldo Punti insufficente!");
+                }
+                
             }
+        }
+
+        private void ottieniPremioButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

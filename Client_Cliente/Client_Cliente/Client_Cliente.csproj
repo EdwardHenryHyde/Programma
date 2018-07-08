@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ElencoScontrini.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElencoScontrini.Designer.cs">
+      <DependentUpon>ElencoScontrini.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="Registrazione.Designer.cs">
       <DependentUpon>Registrazione.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ElencoScontrini.resx">
+      <DependentUpon>ElencoScontrini.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InterfacciaCliente.resx">
       <DependentUpon>InterfacciaCliente.cs</DependentUpon>
     </EmbeddedResource>
