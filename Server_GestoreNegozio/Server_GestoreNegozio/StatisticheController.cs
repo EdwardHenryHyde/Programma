@@ -16,10 +16,10 @@ namespace Server_GestoreNegozio
             if (dataInizio.Contains("marzo"))
             {
                 string[] result = new string[5];
-                result[0] = "N° Scontrini emessi:    " + 800;
-                result[1] = "Guadagno lordo:    " + 31021;
-                result[2] = "Nuovi Clienti: " + 15;
-                result[3] = "N° premi corrisposti:   " + 11;
+                result[0] = "N° Scontrini emessi:    " + "800";
+                result[1] = "Guadagno lordo:    " + "31021";
+                result[2] = "Nuovi Clienti: " + "15";
+                result[3] = "N° premi corrisposti:   " + "11";
                 result[4] = "Prodotto più venduto:  " + "uovo Kinder";
                 return result;
 
