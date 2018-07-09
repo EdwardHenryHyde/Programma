@@ -39,13 +39,11 @@ namespace Client_GestoreNegozio
             data = System.Text.Encoding.ASCII.GetBytes(dateTimePicker1.Text);
             Thread.Sleep(10);
 
-            stream = client.GetStream();
             stream.Write(data, 0, data.Length);
 
             data = System.Text.Encoding.ASCII.GetBytes(dateTimePicker2.Text);
             Thread.Sleep(10);
 
-            stream = client.GetStream();
             stream.Write(data, 0, data.Length);
 
             //ricevo il numero di righe
