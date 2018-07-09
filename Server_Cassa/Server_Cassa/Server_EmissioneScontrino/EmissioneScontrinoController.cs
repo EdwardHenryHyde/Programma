@@ -11,7 +11,7 @@ namespace Server_Cassa.Server_EmissioneScontrino
 {
     class EmissioneScontrinoController : IEmettiScontrino
     {
-
+        int id;
         string[] prodotti;
         string[] clienti;
         int prodIndex;
@@ -23,6 +23,7 @@ namespace Server_Cassa.Server_EmissioneScontrino
             //CREARE I FILE ED INSERIRE IL PERCORSO CORRETTO
             clienti = System.IO.File.ReadAllLines(@"Clienti.txt");
             prodIndex = 0;
+            id = 12345;
         }
 
         public string aggiungiProdotto()
@@ -57,10 +58,15 @@ namespace Server_Cassa.Server_EmissioneScontrino
                 w.WriteLine(risultato);
             }
 
-            using (StreamWriter w = File.AppendText(@"Log.txt"))
+            var culture = new System.Globalization.CultureInfo("it-IT");
+            var day = culture.DateTimeFormat.GetDayName(DateTime.Today.DayOfWeek);
+            var mese = culture.DateTimeFormat.GetMonthName(DateTime.Today.Month);
+
+            using (StreamWriter w = File.AppendText(@"../../../../Server_GestoreSicurezza/Server_GestoreSicurezza/bin/Debug/Logs/" + day + " " + DateTime.Now.Day + " " + mese + " " + DateTime.Now.Year + ".txt"))
             {
-                w.WriteLine(DateTime.Now.ToString() +"@Aggiunto scontrino@" + "Server_EmissioneScontrino");
+                w.WriteLine(DateTime.Now.Hour + ":" + DateTime.Now.Minute + ":" + DateTime.Now.Second + "@Creato scontrino ID: '" + id + "'@" + "Server_EmissioneScontrino");
             }
+            id++;
         }
 
         public void aggiungiPunti(int punti, CartaFedelta cartaFedelta)

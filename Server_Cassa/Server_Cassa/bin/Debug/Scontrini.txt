@@ -1,1 +1,2 @@
 1:birra Moretti:1,1;1:fazzoletti Tempo:2,5;1:batterie Duracell:3,2;1:tonno RioMare:4,8;1:pesto Barilla:1,9;.13,5
+1:latte Granarolo:1,9;1:biscotti MulinoBianco:3,23;1:pasta Barilla:1,1;.6,23

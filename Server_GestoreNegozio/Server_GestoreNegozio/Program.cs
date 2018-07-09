@@ -39,7 +39,7 @@ namespace Server_GestoreNegozio
 
                     if (int.Parse(mstrMessage) == 1)
                     {
-                        //DA RIFARE
+                        
                         Thread.Sleep(10);
                         bytes = new byte[256];
                         stream.Read(bytes, 0, bytes.Length);
@@ -67,7 +67,7 @@ namespace Server_GestoreNegozio
                     }
                     else if (int.Parse(mstrMessage) == 2)
                     {
-                        //DA RIFARE
+                        
                         Thread.Sleep(10);
                         bytes = new byte[256];
                         stream.Read(bytes, 0, bytes.Length);
