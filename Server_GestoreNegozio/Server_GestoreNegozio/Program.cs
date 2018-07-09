@@ -45,6 +45,7 @@ namespace Server_GestoreNegozio
                         stream.Read(bytes, 0, bytes.Length);
                         mstrMessage = Encoding.ASCII.GetString(bytes, 0, bytes.Length);
                         int len = mstrMessage.IndexOf('\0');
+                        Thread.Sleep(10);
                         mstrMessage = mstrMessage.Substring(0, len);
 
                         Thread.Sleep(10);
@@ -55,6 +56,7 @@ namespace Server_GestoreNegozio
                         stream.Write(bytesSent, 0, bytesSent.Length);
                         foreach (string line in mstrResponse)
                         {
+                            Thread.Sleep(10);
                             bytesSent = Encoding.ASCII.GetBytes(line);
                             Thread.Sleep(10);
                             stream.Write(bytesSent, 0, bytesSent.Length);
@@ -70,7 +72,7 @@ namespace Server_GestoreNegozio
                         mstrMessage = Encoding.ASCII.GetString(bytes, 0, bytes.Length);
                         int len = mstrMessage.IndexOf('\0');
                         string mstrMessageInizio = mstrMessage.Substring(0, len);
-
+                        Thread.Sleep(10);
                         bytes = new byte[256];
                         stream.Read(bytes, 0, bytes.Length);
                         mstrMessage = Encoding.ASCII.GetString(bytes, 0, bytes.Length);
@@ -83,9 +85,10 @@ namespace Server_GestoreNegozio
                         string righe = mstrResponse.Length.ToString();
                         byte[] bytesSent = Encoding.ASCII.GetBytes(righe);
                         stream.Write(bytesSent, 0, bytesSent.Length);
-
-                        foreach(string line in mstrResponse)
+                        Thread.Sleep(10);
+                        foreach (string line in mstrResponse)
                         {
+                            Thread.Sleep(10);
                             bytesSent = Encoding.ASCII.GetBytes(line);
                             Thread.Sleep(10);
                             stream.Write(bytesSent, 0, bytesSent.Length);
