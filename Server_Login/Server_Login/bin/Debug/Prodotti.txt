@@ -1,3 +1,10 @@
-latte:12,00
-biscotti:1,23
-cacca:4,21
+latte Granarolo:1,90
+biscotti MulinoBianco:3,23
+pasta Barilla:0,80
+birra Moretti:0,90
+fazzoletti Tempo:2,50
+batterie Duracell:3,20
+tonno RioMare:4,80
+pesto Barilla:1,90
+gelati Sammontana:2,20
+

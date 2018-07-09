@@ -19,7 +19,7 @@ namespace Server_Cassa.Server_EmissioneScontrino
 
         public EmissioneScontrinoController()
         {
-            //printf(porcoddio)//
+            
             //CREARE I FILE ED INSERIRE IL PERCORSO CORRETTO
             clienti = System.IO.File.ReadAllLines(@"Clienti.txt");
             prodIndex = 0;

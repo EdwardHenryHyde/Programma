@@ -5,3 +5,10 @@ C:\Users\Antonio\source\repos\Server_Cassa\Server_Cassa\obj\Debug\Server_Cassa.c
 C:\Users\Antonio\source\repos\Server_Cassa\Server_Cassa\obj\Debug\Server_Cassa.exe
 C:\Users\Antonio\source\repos\Server_Cassa\Server_Cassa\obj\Debug\Server_Cassa.pdb
 C:\Users\Antonio\source\repos\Server_Cassa\Server_Cassa\obj\Debug\Server_Cassa.csprojResolveAssemblyReference.cache
+C:\Users\Antonio\Documents\GitHub\Programma\Server_Cassa\Server_Cassa\bin\Debug\Server_Cassa.exe.config
+C:\Users\Antonio\Documents\GitHub\Programma\Server_Cassa\Server_Cassa\bin\Debug\Server_Cassa.exe
+C:\Users\Antonio\Documents\GitHub\Programma\Server_Cassa\Server_Cassa\bin\Debug\Server_Cassa.pdb
+C:\Users\Antonio\Documents\GitHub\Programma\Server_Cassa\Server_Cassa\obj\Debug\Server_Cassa.csprojResolveAssemblyReference.cache
+C:\Users\Antonio\Documents\GitHub\Programma\Server_Cassa\Server_Cassa\obj\Debug\Server_Cassa.csproj.CoreCompileInputs.cache
+C:\Users\Antonio\Documents\GitHub\Programma\Server_Cassa\Server_Cassa\obj\Debug\Server_Cassa.exe
+C:\Users\Antonio\Documents\GitHub\Programma\Server_Cassa\Server_Cassa\obj\Debug\Server_Cassa.pdb

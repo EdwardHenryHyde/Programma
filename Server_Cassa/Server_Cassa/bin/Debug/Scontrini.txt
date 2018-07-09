@@ -1,4 +1,1 @@
-1:latte:12;1:biscotti:1,23;1:cacca:4,21;.17,44
-1:latte:12;1:biscotti:1,23;.13,23
-1:latte:12;1:biscotti:1,23;.13,23
-1:latte:12;1:biscotti:1,23;.13,23
+1:birra Moretti:1,1;1:fazzoletti Tempo:2,5;1:batterie Duracell:3,2;1:tonno RioMare:4,8;1:pesto Barilla:1,9;.13,5

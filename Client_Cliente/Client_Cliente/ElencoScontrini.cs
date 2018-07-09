@@ -44,10 +44,10 @@ namespace Client_Cliente
 
                 string[] words = responseData.Split('@');
 
-                tableLayoutPanel1.Controls.Add(new Label() { Text = words[0] });
-                tableLayoutPanel1.Controls.Add(new Label() { Text = words[1] });
-                tableLayoutPanel1.Controls.Add(new Label() { Text = words[2] });
-                tableLayoutPanel1.Controls.Add(new Label() { Text = words[3] });
+                tableLayoutPanel1.Controls.Add(new Label() {/*Dock = DockStyle.Fill,*/ Text = words[0] });
+                tableLayoutPanel1.Controls.Add(new Label() { /*Dock = DockStyle.Fill,*/ Text = words[1] });
+                tableLayoutPanel1.Controls.Add(new Label() { /*Dock = DockStyle.Fill,*/ Text = words[2] + "€" });
+                tableLayoutPanel1.Controls.Add(new Label() { /*Dock = DockStyle.Fill,*/ Text = words[3] });
 
 
             }

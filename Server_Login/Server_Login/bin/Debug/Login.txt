@@ -1,4 +1,5 @@
 Cliente1:1234
 admin:admin
-ciccio:pluto
-Cliente100:aaa
+pippo:pluto
+username:password
+Cliente2:1234

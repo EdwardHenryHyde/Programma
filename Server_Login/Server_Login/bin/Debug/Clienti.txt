@@ -1,9 +1,7 @@
-antonio:spina:16/10/1996:Bologna:Bo:40123:via Frassinago:1234566778:12312321:1233456:99999
-giuseppe:qweqeqw:12/12/2012:Roma:Ro:21212:via Roma:1235435345:123123124:94879847:44444
-asdadsa:asdasd:venerd? 6 luglio 2018:Bogloasd:Bo:40123:roma:123429324:eieoriug
-aaaaa:aaaaa:domenica 8 luglio 2018:aa:aa:aaaaaaaa:aaaaaaaaaa:aaaaaaaa:aaaaaaaaaa
-aaaa:aaaaaa:domenica 8 luglio 2018:aaa:aa:aaaaaaaaaa:aaaaaaaaaa:aaaaaaaaa:aaaaaaaaaaaa
-::domenica 8 luglio 2018::::::
-aa:aa:mercoled? 27 giugno 2018:aaa:aa:aaaaaaaa:aaaaaa:aaaaaaaa:aaaaaaaa
-asdasd:dasd:domenica 8 luglio 2018:dasda:da:asdasdasda:dasdasd:dasdasd:asdasdads
-aaa:aaa:domenica 8 luglio 2018:aaa:aa:aaa:aaa:aaa:aaa
+mario:rossi:sabato 11 febbraio 1978:Bologna:Bo:40123:via Rizzoli 21:3331234833:195039102:11111111:11111
+giuseppe:gialli:domenica 10 dicembre 1953:Roma:Ro:10291:via Roma 1:3339583920:593820583:22222222:22222
+francesco:verdi:domenica 18 dicembre 1984:Milano:Mi:48203:via Roma 54:3339523211:123223283:33333333:33333
+giovanni:bianchi:sabato 21 marzo 1992:Roma:Ro:10243:via VittorioEmanuele 21:3332323211:643223283:44444444:44444
+paolo:azzurro:domenica 15 gennaio 1964:Milano:Mi:48743:via Milano 1:3393523265:693421283:55555555:55555
+
+

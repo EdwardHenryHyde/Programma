@@ -19,7 +19,7 @@ namespace Server_Clienti
             TcpListener tcpListener = null;
             IPAddress ipAddress = Dns.GetHostEntry("127.0.0.1").AddressList[0];
 
-            tcpListener = new TcpListener(1235);
+            tcpListener = new TcpListener(1238);
             tcpListener.Start();
 
             while (true)
