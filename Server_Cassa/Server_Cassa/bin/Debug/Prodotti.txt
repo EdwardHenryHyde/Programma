@@ -1,10 +1,10 @@
-latte Granarolo:1,90
+latte Granarolo:1,93
 biscotti MulinoBianco:3,23
-pasta Barilla:1,10
-birra Moretti:1,10
-fazzoletti Tempo:2,50
-batterie Duracell:3,20
-tonno RioMare:4,80
-pesto Barilla:1,90
-gelati Sammontana:2,20
+pasta Barilla:1,14
+birra Moretti:1,11
+fazzoletti Tempo:2,55
+batterie Duracell:3,29
+tonno RioMare:4,85
+pesto Barilla:1,99
+gelati Sammontana:2,25
 

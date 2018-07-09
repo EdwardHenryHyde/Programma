@@ -38,7 +38,7 @@ namespace Server_GestoreSicurezza
                     string mstrMessage = Encoding.ASCII.GetString(bytes, 0, bytes.Length);
                     int len = mstrMessage.IndexOf('\0');
                     mstrMessage = mstrMessage.Substring(0, len);
-
+                    mstrMessage = mstrMessage.Replace('?', 'ì');
                     string[] res = logController.getEntry(mstrMessage);
                     string mstrResponse;
                     byte[] bytesSent;
@@ -58,10 +58,17 @@ namespace Server_GestoreSicurezza
 
                     foreach(string line in res)
                     {
+                        Thread.Sleep(10);
+
                         mstrResponse = line;
                         bytesSent = Encoding.ASCII.GetBytes(mstrResponse);
+                        Thread.Sleep(20);
                         stream.Write(bytesSent, 0, bytesSent.Length);
                         Thread.Sleep(10);
+
+                        bytes = new byte[256];
+                        stream = tcpClient.GetStream();
+                        stream.Read(bytes, 0, bytes.Length);
                     }
 
                 }

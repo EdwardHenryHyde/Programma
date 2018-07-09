@@ -53,28 +53,39 @@ namespace Client_GestoreLog
             Int32 bytes = stream.Read(data, 0, data.Length);
             responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
 
-
-            int righe = int.Parse(responseData);
-
-            //riga per riga popolo la tabella
-
-            for(int i = 0; i < righe; i++ )
+            if (!responseData.Equals("errore"))
             {
-                data = new Byte[256];
-                responseData = String.Empty;
-                Thread.Sleep(10);
-                bytes = stream.Read(data, 0, data.Length);
-                responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+                int righe = int.Parse(responseData);
 
-                string[] words = responseData.Split('@');
+                //riga per riga popolo la tabella
 
-                tableLayoutPanel.Controls.Add(new Label() { Text = words[0] });
-                tableLayoutPanel.Controls.Add(new Label() { Text = words[1] });
-                tableLayoutPanel.Controls.Add(new Label() { Text = words[2] });
+                for (int i = 0; i < righe; i++)
+                {
+                    data = new Byte[256];
+                    responseData = "";
+                    bytes = stream.Read(data, 0, data.Length);
+                    Thread.Sleep(10);
+                    responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+                    //MessageBox.Show(responseData);
+                    string[] words = new string[3];
+                    words = responseData.Split('@');
 
+                    tableLayoutPanel.Controls.Add(new Label { Text = words[0] },0,i);
+                    tableLayoutPanel.Controls.Add(new Label { Text = words[1], AutoSize = true },1,i);
+                    tableLayoutPanel.Controls.Add(new Label { Text = words[2] },2,i);
 
+                    data = new Byte[256];
+                    data = System.Text.Encoding.ASCII.GetBytes("ok");
+                    Thread.Sleep(10);
+
+                    stream = client.GetStream();
+                    stream.Write(data, 0, data.Length);
+                }
             }
-
+            else
+            {
+                MessageBox.Show("Data non disponibile");
+            }
 
 
 
