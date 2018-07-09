@@ -22,16 +22,25 @@ namespace Client_GestoreNegozio
         {
             if (e.KeyCode.Equals(Keys.Enter))
             {
-                Int32 port = 1237;
+                Int32 port = 1239;
                 TcpClient client = new TcpClient("127.0.0.1", port);
                 Thread.Sleep(10);
                 //mando la data
 
                 Byte[] data = new Byte[256];
-                data = System.Text.Encoding.ASCII.GetBytes(textBox1.Text);
+                data = System.Text.Encoding.ASCII.GetBytes("1");
                 Thread.Sleep(10);
 
                 NetworkStream stream = client.GetStream();
+                stream.Write(data, 0, data.Length);
+
+
+
+                data = new Byte[256];
+                data = System.Text.Encoding.ASCII.GetBytes(textBox1.Text);
+                Thread.Sleep(10);
+
+                stream = client.GetStream();
                 stream.Write(data, 0, data.Length);
 
                 //ricevo il numero di righe
