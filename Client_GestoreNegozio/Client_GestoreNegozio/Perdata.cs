@@ -59,17 +59,51 @@ namespace Client_GestoreNegozio
 
             //riga per riga popolo la tabella
 
-            for (int i = 0; i < righe; i++)
-            {
-                data = new Byte[256];
-                responseData = String.Empty;
-                Thread.Sleep(10);
-                bytes = stream.Read(data, 0, data.Length);
-                responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+            data = new Byte[256];
+            responseData = String.Empty;
+            Thread.Sleep(10);
+            bytes = stream.Read(data, 0, data.Length);
+            label3.Text = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
 
-                tableLayoutPanel1.Controls.Add(new Label() { Text = responseData });
+            Thread.Sleep(20);
 
-            }
+            data = new Byte[256];
+            responseData = String.Empty;
+            Thread.Sleep(10);
+            bytes = stream.Read(data, 0, data.Length);
+            label4.Text = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+
+            Thread.Sleep(20);
+
+            data = new Byte[256];
+            responseData = String.Empty;
+            Thread.Sleep(10);
+            bytes = stream.Read(data, 0, data.Length);
+            label5.Text = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+
+            Thread.Sleep(20);
+
+            data = new Byte[256];
+            responseData = String.Empty;
+            Thread.Sleep(10);
+            bytes = stream.Read(data, 0, data.Length);
+            label6.Text = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+
+            Thread.Sleep(20);
+            data = new Byte[256];
+            responseData = String.Empty;
+            Thread.Sleep(10);
+            bytes = stream.Read(data, 0, data.Length);
+            label7.Text = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+
+            Thread.Sleep(20);
+        }
+
+        private void ottieniPremioButton_Click(object sender, EventArgs e)
+        {
+            ReportMensile reportMensile = new ReportMensile();
+            reportMensile.Show();
+            this.Close();
         }
     }
 }

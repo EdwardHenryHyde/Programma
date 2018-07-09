@@ -60,6 +60,8 @@ namespace Server_GestoreNegozio
                             bytesSent = Encoding.ASCII.GetBytes(line);
                             Thread.Sleep(10);
                             stream.Write(bytesSent, 0, bytesSent.Length);
+                            Thread.Sleep(10);
+
                         }
 
                     }
@@ -92,6 +94,7 @@ namespace Server_GestoreNegozio
                             bytesSent = Encoding.ASCII.GetBytes(line);
                             Thread.Sleep(10);
                             stream.Write(bytesSent, 0, bytesSent.Length);
+                            Thread.Sleep(15);
                         }
 
                     }

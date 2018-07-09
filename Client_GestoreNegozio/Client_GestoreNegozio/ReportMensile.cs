@@ -20,7 +20,7 @@ namespace Client_GestoreNegozio
         }
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode.Equals(Keys.Enter))
+            if (e.KeyCode == Keys.Enter)
             {
                 Int32 port = 1239;
                 TcpClient client = new TcpClient("127.0.0.1", port);
@@ -55,18 +55,48 @@ namespace Client_GestoreNegozio
                 int righe = int.Parse(responseData);
 
                 //riga per riga popolo la tabella
+                string[] response = new string[righe];
 
-                for (int i = 0; i < righe; i++)
-                {
+                
+
                     data = new Byte[256];
                     responseData = String.Empty;
                     Thread.Sleep(10);
                     bytes = stream.Read(data, 0, data.Length);
-                    responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+                    label2.Text = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+          
+                    Thread.Sleep(20);
 
-                    tableLayoutPanel1.Controls.Add(new Label() { Text = responseData});
+                data = new Byte[256];
+                responseData = String.Empty;
+                Thread.Sleep(10);
+                bytes = stream.Read(data, 0, data.Length);
+                label3.Text = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
 
-                }
+                Thread.Sleep(20);
+
+                data = new Byte[256];
+                responseData = String.Empty;
+                Thread.Sleep(10);
+                bytes = stream.Read(data, 0, data.Length);
+                label4.Text = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+
+                Thread.Sleep(20);
+
+                data = new Byte[256];
+                responseData = String.Empty;
+                Thread.Sleep(10);
+                bytes = stream.Read(data, 0, data.Length);
+                label5.Text = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+
+                Thread.Sleep(20);
+                data = new Byte[256];
+                responseData = String.Empty;
+                Thread.Sleep(10);
+                bytes = stream.Read(data, 0, data.Length);
+                label6.Text = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+
+                Thread.Sleep(20);
 
             }
         }
@@ -74,6 +104,13 @@ namespace Client_GestoreNegozio
         {
             Perdata perdata = new Perdata();
             perdata.Show();
+            this.Close();
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Form1 login = new Form1();
+            login.Show();
             this.Close();
         }
     }
