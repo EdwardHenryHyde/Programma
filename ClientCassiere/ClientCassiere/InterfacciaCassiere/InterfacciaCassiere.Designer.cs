@@ -42,6 +42,9 @@
             this.fineButton = new System.Windows.Forms.Button();
             this.annullaButton = new System.Windows.Forms.Button();
             this.scontrinoPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // close
@@ -194,6 +197,33 @@
             this.scontrinoPanel.Size = new System.Drawing.Size(225, 153);
             this.scontrinoPanel.TabIndex = 13;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(16, 153);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(19, 13);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "N°";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(71, 153);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(47, 13);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Prodotto";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(172, 153);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(39, 13);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Prezzo";
+            // 
             // InterfacciaCassiere
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,6 +231,9 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(339, 493);
             this.ControlBox = false;
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.scontrinoPanel);
             this.Controls.Add(this.annullaButton);
             this.Controls.Add(this.fineButton);
@@ -238,5 +271,8 @@
         private System.Windows.Forms.Button fineButton;
         private System.Windows.Forms.Button annullaButton;
         private System.Windows.Forms.TableLayoutPanel scontrinoPanel;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }

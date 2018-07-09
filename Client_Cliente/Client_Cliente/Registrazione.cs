@@ -30,7 +30,7 @@ namespace Client_Cliente
 
 
             string linea = nomeTextBox.Text + ":" + cognomeTextBox.Text + ":" + dateTimePicker.Text + ":" + cittaTextBox.Text + ":" + provinciaTextBox.Text + ":" + capTextBox.Text + ":" + viaTextBox.Text + ":" + telefonoTextBox.Text + ":" + cartaTextBox.Text + ":" + passwordTextBox.Text;
-            MessageBox.Show(linea);
+           // MessageBox.Show(linea);
 
             Thread.Sleep(10);
 
@@ -65,6 +65,9 @@ namespace Client_Cliente
 
             MessageBox.Show("Username: " + username + "   Password: " + password);
 
+            Form1 form1 = new Form1();
+            this.Close();
+            form1.Show();
 
         }
 

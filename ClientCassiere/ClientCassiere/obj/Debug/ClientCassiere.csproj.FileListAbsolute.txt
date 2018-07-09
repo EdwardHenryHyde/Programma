@@ -53,3 +53,14 @@ C:\Users\Antonio\Documents\GitHub\Programma\ClientCassiere\ClientCassiere\obj\De
 C:\Users\Antonio\Documents\GitHub\Programma\ClientCassiere\ClientCassiere\obj\Debug\ClientCassiere.csproj.CoreCompileInputs.cache
 C:\Users\Antonio\Documents\GitHub\Programma\ClientCassiere\ClientCassiere\obj\Debug\ClientCassiere.exe
 C:\Users\Antonio\Documents\GitHub\Programma\ClientCassiere\ClientCassiere\obj\Debug\ClientCassiere.pdb
+C:\Users\Andrea\Desktop\Desktop\Programma\ClientCassiere\ClientCassiere\bin\Debug\ClientCassiere.exe.config
+C:\Users\Andrea\Desktop\Desktop\Programma\ClientCassiere\ClientCassiere\bin\Debug\ClientCassiere.exe
+C:\Users\Andrea\Desktop\Desktop\Programma\ClientCassiere\ClientCassiere\bin\Debug\ClientCassiere.pdb
+C:\Users\Andrea\Desktop\Desktop\Programma\ClientCassiere\ClientCassiere\obj\Debug\ClientCassiere.csprojResolveAssemblyReference.cache
+C:\Users\Andrea\Desktop\Desktop\Programma\ClientCassiere\ClientCassiere\obj\Debug\ClientCassiere.Form1.resources
+C:\Users\Andrea\Desktop\Desktop\Programma\ClientCassiere\ClientCassiere\obj\Debug\ClientCassiere.InterfacciaCassiere.resources
+C:\Users\Andrea\Desktop\Desktop\Programma\ClientCassiere\ClientCassiere\obj\Debug\ClientCassiere.Properties.Resources.resources
+C:\Users\Andrea\Desktop\Desktop\Programma\ClientCassiere\ClientCassiere\obj\Debug\ClientCassiere.csproj.GenerateResource.cache
+C:\Users\Andrea\Desktop\Desktop\Programma\ClientCassiere\ClientCassiere\obj\Debug\ClientCassiere.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\Desktop\Desktop\Programma\ClientCassiere\ClientCassiere\obj\Debug\ClientCassiere.exe
+C:\Users\Andrea\Desktop\Desktop\Programma\ClientCassiere\ClientCassiere\obj\Debug\ClientCassiere.pdb

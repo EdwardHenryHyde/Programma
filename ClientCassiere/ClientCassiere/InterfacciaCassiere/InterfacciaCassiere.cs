@@ -27,6 +27,7 @@ namespace ClientCassiere
         {
             
             InitializeComponent();
+            textBox1.Enabled = false;
         }
 
         private void close_Click(object sender, EventArgs e)
@@ -96,7 +97,7 @@ namespace ClientCassiere
 
             scontrinoPanel.Controls.Add(new Label() { Text = "1" });
             scontrinoPanel.Controls.Add(new Label() { Text = nomeOggetto });
-            scontrinoPanel.Controls.Add(new Label() { Text = "" + prezzoOggetto });
+            scontrinoPanel.Controls.Add(new Label() { Text = "" + prezzoOggetto + " €" });
 
             totaleLabel.Text = "" + totale;
 
@@ -159,11 +160,15 @@ namespace ClientCassiere
         private void cartaSi_CheckedChanged(object sender, EventArgs e)
         {
             cartaButton.Enabled = true;
+            textBox1.Enabled = true;
         }
 
         private void cartaNo_CheckedChanged(object sender, EventArgs e)
         {
             cartaButton.Enabled = false;
+            textBox1.Enabled = false;
+            nameLabel.ResetText();
+            textBox1.ResetText();
         }
     }
 }

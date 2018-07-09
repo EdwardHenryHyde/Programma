@@ -21,9 +21,27 @@ namespace Client_GestoreNegozio
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
+           
+        }
+
+        private void ottieniPremioButton_Click(object sender, EventArgs e)
+        {
+            ReportMensile reportMensile = new ReportMensile();
+            reportMensile.Show();
+            this.Close();
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Form1 login = new Form1();
+            login.Show();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             Int32 port = 1239;
             TcpClient client = new TcpClient("127.0.0.1", port);
-            Thread.Sleep(10);
             //mando la data
 
             Byte[] data = new Byte[256];
@@ -97,13 +115,6 @@ namespace Client_GestoreNegozio
             label7.Text = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
 
             Thread.Sleep(20);
-        }
-
-        private void ottieniPremioButton_Click(object sender, EventArgs e)
-        {
-            ReportMensile reportMensile = new ReportMensile();
-            reportMensile.Show();
-            this.Close();
         }
     }
 }

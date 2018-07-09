@@ -5,3 +5,6 @@ giovanni:bianchi:sabato 21 marzo 1992:Roma:Ro:10243:via VittorioEmanuele 21:3332
 paolo:azzurro:domenica 15 gennaio 1964:Milano:Mi:48743:via Milano 1:3393523265:693421283:55555555:55555
 giampiero:qweqwqe:marted? 10 luglio 2018:roma:ro:22221:verer:2312321312:34543535
 aasasda:asdasd:gioved? 12 luglio 2018:asdasd:as:213213:asdadsd:21312123:21323213213
+aaa:aaaaa:luned? 9 luglio 2018:aaaa:aa:aaaa:aaaa:aaaa:aaaa
+aaaa:aaaa:luned? 9 luglio 2018:aaaa:aa:aaaa:aaaa:aaaa:aaaa
+aaaa:aaaa:luned? 9 luglio 2018:aaaa:aa:aaaa:aaaa:aaaa:aaaa

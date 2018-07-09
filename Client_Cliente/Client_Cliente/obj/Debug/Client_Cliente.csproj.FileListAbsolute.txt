@@ -24,3 +24,16 @@ C:\Users\Antonio\Documents\GitHub\Programma\Client_Cliente\Client_Cliente\obj\De
 C:\Users\Antonio\Documents\GitHub\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.csproj.CoreCompileInputs.cache
 C:\Users\Antonio\Documents\GitHub\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.exe
 C:\Users\Antonio\Documents\GitHub\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.pdb
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\bin\Debug\Client_Cliente.exe.config
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\bin\Debug\Client_Cliente.exe
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.csprojResolveAssemblyReference.cache
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.ElencoScontrini.resources
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.InterfacciaCliente.resources
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.ottieniPremio.resources
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.Properties.Resources.resources
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.Registrazione.resources
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.csproj.GenerateResource.cache
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.exe
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\obj\Debug\Client_Cliente.pdb
+C:\Users\Andrea\Desktop\Desktop\Programma\Client_Cliente\Client_Cliente\bin\Debug\Client_Cliente.pdb
